@@ -10,12 +10,11 @@ public class Screener01 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your first and last name");
         String full = input.nextLine();
-        int spc = full.indexOf(" ");
-        System.out.println(spc);
+       // int spc = full.indexOf(" ");
+       // System.out.println(spc);
         String ilk =full.split(" ")[0];
         String iki = full.split(" ")[1];
-        System.out.println(ilk);
-        System.out.println(iki);
+        System.out.println(""+ilk.charAt(0)+iki.charAt(0));
 
     }
 }
